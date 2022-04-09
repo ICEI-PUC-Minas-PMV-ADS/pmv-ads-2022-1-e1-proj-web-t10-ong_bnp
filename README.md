@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 *  Thiago Almeida Amorim 
 * Gabriel Alexandre Medrado Alves
 * Tássia de Lima Teixeira
-* Nome completo do aluno 4
+* Nome completo do aluno 6
 
 ## Orientador
 
