@@ -1,10 +1,10 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`Tecnólogo em Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Disciplina: Projeto – Desenvolvimento de uma aplicação web front-end`
 
-`SEMESTRE`
+`1° SEMESTRE - 2022`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
@@ -13,11 +13,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 *  Thiago Almeida Amorim 
 * Gabriel Alexandre Medrado Alves
 * Tássia de Lima Teixeira
-* Nome completo do aluno 10
+* <a href="https://github.com/Ieeeza"> César Pereira dos Santos Filho</a>
+* 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Daniela Carvalho Monteiro Ferreira
 
 ## Instruções de utilização
 
