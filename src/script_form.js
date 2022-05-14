@@ -73,8 +73,5 @@ DataServicos.addEventListener('input', ({ target }) => {
 
             }).join('')}
         `;
-
-        
-        var opcaoTexto = select.options[select.selectedIndex].text;
     };
 });
