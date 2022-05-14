@@ -128,10 +128,8 @@
 }
 
 .ListScroll {
-    background-color: rgba(114, 114, 114, 0.802);
-
     min-height: 35px;
-    max-height: 250px;
+    max-height: 263px;
 
     overflow-y: hidden;
 

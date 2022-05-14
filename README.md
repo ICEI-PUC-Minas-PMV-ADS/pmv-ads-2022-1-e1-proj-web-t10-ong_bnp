@@ -10,10 +10,10 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-*  Thiago Almeida Amorim 
+* Thiago Almeida Amorim 
 * Gabriel Alexandre Medrado Alves
-* Tássia de Lima Teixeira
-* <a href="https://github.com/Ieeeza"> César Pereira dos Santos Filho</a>
+* Tássia de Lima Teixeira.
+* <a href="https://github.com/Ieeeza"> César Pereira dos Santos Filho </a>
 * 
 
 ## Orientador

@@ -59,17 +59,22 @@ DataServicos.addEventListener('input', ({ target }) => {
     if(DadosDoCampo.length !== '') {
         const AutoCompleteValores = AutoComplete(DadosDoCampo);
 
+        document.getElementById('ListScroll').style.backgroundColor = target.value === ''? '': "rgba(114, 114, 114, 0.802)";
+
         document.getElementById('List').innerHTML = `
             ${AutoCompleteValores.map((value) => {
                 
                 return ( 
                     target.value === '' ? '' : `
                     <ul class="ContainerSelect" >
-                        <li >${ value }</li>
+                        <option id="Opt" value=${ value.length } >${ value }</option>
                     </ul>
                 `)
 
             }).join('')}
-        `
+        `;
+
+        
+        var opcaoTexto = select.options[select.selectedIndex].text;
     };
 });
