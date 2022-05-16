@@ -1,0 +1,182 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header {
+    background-color: lightblue;
+    color:  rgb(41, 41, 110);
+    width: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imagemlogo {
+    margin: 10px 0 10px 0;
+}
+
+.navegacao {
+    display: flex;
+    gap: 64px;
+    font-size: 150%;
+    margin-right: 60px;
+}
+
+.meio {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.partedecima {
+    margin: 100px 0 32px 0;
+    font-size: xx-large;
+}
+
+.parceiros {
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.footer {
+    background-color: lightblue;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content .box {
+    color:  rgb(41, 41, 110);
+    padding: 15px 0 0 0;
+}
+
+.ongname {
+    justify-items: center;
+    font-size: larger;
+    height: 0px;
+}
+
+.direitos {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 10px 0;
+}
+
+.nome {
+    font-size: large;
+}
+
+.box h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.box-list {
+    margin: 12px 0 0 0;
+}
+
+.box ul, .box li {
+    list-style: none;
+    padding: 0;
+}
+@media screen and (max-width: 1000px) {
+    .navegacao {
+        gap: 15px 
+    }
+    
+    .meio {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        position: relative;
+        top: 0px;
+    }
+    
+    .cabecalho {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .div-parceiros {
+        margin-bottom: 15px;
+    }
+
+    .navegacao {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: left; 
+        padding: 5px 0 0 15px;
+        gap: 15px;
+    }
+    
+    .meio {
+        display: flex;
+    }
+
+    .partedecima {
+        font-size: medium;
+        padding: 15px 0 0 0;
+        margin: 0px;
+    }
+
+    .parceiros {
+        width: 280px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main-content {
+    max-height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;   
+        
+    }
+    
+    .contatos-box {
+        padding: 10px 0 0 0;
+    }
+
+    .ongname {
+        padding: 15px 0 0 0;
+    }
+
+    .nome {
+        padding: 10px 7px 0 7px;
+        margin: 0 0 7px 0;
+        font-size: medium;
+    }
+
+    .main-content .box {
+        padding: 0 7px 0 7px;
+    }
+
+}
+
+@media screen and (min-width: 250px) {
+    .header {
+
+    }
+}
+
+
+
