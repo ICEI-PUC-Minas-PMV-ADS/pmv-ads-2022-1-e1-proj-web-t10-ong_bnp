@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,83 +10,46 @@
 </head>
 <body>
     <noscript> Você precisa habilitar o JavaScript para executar este aplicativo! </noscript>
-    
-    <nav>
-        <ul>
-            <li><a href="#QuemSomos">Quem somos</a></li>
-            <li><a href="#">Formulário de contato</a></li>
-            <li><a href="#">Localização</a></li>
-            <li><a href="#">Como doar</a></li>
-            <li><a href="#">Parceiros</a></li>
-        </ul>
-    </nav>
 
-    <main>
+    <main> 
 
-        <section>
-            <header>
-                <h1>Home Page</h1>
-            </header>
-        </section>
-
-        <form class="Form" >
+        <form class="Form" id="form" >
 
             <header class="HeaderForm" >
-                <h1>Contato</h1>
+                <h1>Entre em Contato</h1>
             </header>
 
             <div class="ContainerForm" >
                
                 <div class="ContainerInputForm">
-                    <input type="text" id="Name" placeholder="Nome" onchange="SendData()" >
-                    <input type="text" id="Email" placeholder="Email" onchange="SendData()" >
-                    <input type="text" id="Telefone" placeholder="Telefone" onchange="SendData()" >
-                    <input type="text" id="Servicos" placeholder="Pesquisar por serviços..." >
+                    <input type="text" id="Name" placeholder="Nome"  >
+                    <label for="Name" id="LabelName"></label>
+                    
+                    <input type="text" id="Email" placeholder="Email"  >
+                    <label for="Email" id="LabelEmail" ></label>
+                    
+                    <input type="text" id="Tel" placeholder="Telefone"  >
+                    <label for="Telefone" id="LabelTel" ></label>
+
+                    <input type="text" id="Servicos" value="" placeholder="Pesquisar por serviços..." >
+                    <label for="Servicos" id="LabelServicos" ></label>
+
                     <div class="ContainerList">
-                        <div class="ListScroll" id="ListScroll">
+                        <div class="CampoList" id="CampoList">
                             <div id="List" value='' ></div>
                         </div>
-                    </div>
-                    <div class="ContainerImgForm" >
-                        <img src="./img/search (2).png" alt="">
                     </div>
                 </div>
                 
                 <div class="ContainerButtonForm">
-                    <button onclick="SendForm()" >Enviar</button>
+                    <button>Enviar</button>
                 </div>
 
             </div>
 
-            <div>
-                
-            </div>
-
         </form>
-    
-        <section>
-            <header>
-                <h1>Localização</h1>
-            </header>
-        </section>
-    
-        <section>
-            <header>
-                <h1>O que doar?</h1>
-            </header>
-        </section>
-    
-        <section>
-            <header>
-                <h1>Parceiros</h1>
-            </header>
-        </section>
 
     </main>
-
-    <footer>
-        rodapé
-    </footer>
 
     <script src="../src/script_form.js"></script>
 

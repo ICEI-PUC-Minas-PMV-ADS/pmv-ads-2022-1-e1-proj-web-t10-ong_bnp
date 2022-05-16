@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    list-style: none;
 }
 
 .Form {
@@ -13,21 +12,32 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+
+    background-image: url(./img/Backgroundfom.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1200px) {
+    .Form {
+        background-size: cover;
+    }
 }
 
 .Form .HeaderForm {
     padding: 4px;
-    border-bottom: solid 2px black;
 }
 
 .Form .HeaderForm h1 {
-    
+    color: #1B325F;
 }
 
 .Form .ContainerForm {
     width: 600px;
     height: 350px;
-    
+
+    margin-top: -180px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,27 +104,6 @@
     transition: all 0.2s;
 }
 
-.Form .ContainerForm .ContainerInputForm .ContainerImgForm {
-    width: 85%;
-
-    display: flex;
-    justify-content: end;
-}
-
-.Form .ContainerForm .ContainerInputForm .ContainerImgForm img {
-    width: 15px;
-    height: 15px;
-
-    margin-top: -39px;
-
-    cursor: pointer;
-}
-
-.Form .ContainerForm .ContainerButtonForm {
-    width: 80%;
-    margin-bottom: 30px;
-}
-
 .ContainerList {
     width: 90%;
     height: 30px;
@@ -127,9 +116,10 @@
     z-index: 1;
 }
 
-.ListScroll {
+
+.CampoList {
     min-height: 35px;
-    max-height: 263px;
+    max-height: 228px;
 
     overflow-y: hidden;
 
@@ -144,17 +134,38 @@
 
     text-align: center;
 
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 12px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     background-color: #E9F2F9;
 
     outline: none;
     border: solid 2px rgba(114, 114, 114, 0.802);
     border-radius: 10px;
+
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
+.ContainerSelect:hover {
+    background-color: #3A89C9;
+    color: #E9F2F9;
 
+    background-color: rgba(114, 114, 114, 0.802);
+    border: solid 2px #E9F2F9;
+
+    transition: all 0.3s;
+}
+
+#Opt {
+    font-weight: bolder;
+}
+
+.Form .ContainerForm .ContainerButtonForm {
+    width: 80%;
+    margin-bottom: 30px;
+}
 
 .Form .ContainerForm .ContainerButtonForm button {
     width: 100px;
