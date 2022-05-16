@@ -1,0 +1,131 @@
+.localização{
+    background-image: url(./img/Fundo\ localização.png);
+    width: 100%;
+   height: 100vh;
+   background-size: contain;
+   background-repeat: no-repeat;
+   align-items: center;
+   color:#1B325F;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   }
+   
+   .NomeONG{
+       margin-top: -100px;
+   }
+   
+   .TituloLocalizaçao{
+       margin-bottom: -60px;
+   }
+   
+   @media (max-width: 600px){
+       .mapa{
+           width: 250px;
+           height: 380px;
+       }
+   }
+   
+   @media (min-width: 1200px){
+       .localização {
+           background-size: cover;
+       }
+   }
+   
+   .Doaçoes{
+   color:#1B325F;
+   font-size: 19px;
+   width: 100%;
+   height: 100vh;
+   }
+   
+      .ContainerParagrafo{
+      display: inline-block;
+      width: calc(40% - 20px);
+      background-color:#E9F2F9;
+      vertical-align: top;
+      margin: 40px;
+      margin-top: 30px;
+      padding: 30px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 21px;
+      } 
+   
+      .ContainerOQueDoar{
+       display: inline-block;
+       width: calc(18% - 20px);
+       background-color: #E9F2F9;
+       vertical-align: top;
+       margin: 30px;
+       margin-top: 30px;
+       padding: 30px;
+       padding-bottom: 115px;
+       border-radius: 10px;
+       } 
+   
+       .doaçoes{
+           list-style-type: disc;
+           line-height: 28px;
+       }
+   
+       .ContainerComoDoar{
+           display: inline-block;
+           width: calc(18% - 20px);
+           background-color: #E9F2F9;
+           vertical-align: top;
+           margin: 20px;
+           margin-top: 30px;
+           padding: 30px;
+           border-radius: 10px;
+           } 
+   
+           .DoaçoesOrientaçoes{
+               list-style-type: disc;
+           }
+   
+           .ContainerTelefones{
+           display: block;
+           margin-top: 1%;
+           margin-left: 40px;
+           }
+   
+           .telefones{
+           list-style-type: disc;
+           }
+   
+           .WhatsApp{
+           margin-top: 30px;
+           margin-left: 65px;
+           }
+   
+           .Whats{
+           background-color: #E9F2F9;
+           border-color: #3A89C9;
+           color: #3A89C9;
+           border-radius: 10px;
+           padding: 5px 20px;
+           }
+   
+           @media (max-width: 1200px){
+           .ContainerParagrafo{
+           width: 80%;
+           padding: 15px;
+           margin: 3px;
+           }
+           .ContainerOQueDoar{
+           display: block;
+           width: 80%;
+           padding: 15px;
+           margin: 3px;
+           }
+           .ContainerComoDoar{
+           display: block;
+           width: 80%;
+           padding: 15px;
+           margin: 3px;
+           } 
+         
+       }
