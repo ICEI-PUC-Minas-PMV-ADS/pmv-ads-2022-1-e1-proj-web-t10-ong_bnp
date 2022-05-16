@@ -6,12 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ONG OBNP</title>
     
-    <link rel="stylesheet" href="./styled.css">
+    <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="./HomePage.css">
+
 </head>
 <body>
     <noscript> Você precisa habilitar o JavaScript para executar este aplicativo! </noscript>
 
+    <nav class="menu" id="nav">
+        <ul class="container" id="container">
+            <li class="img"><img src="./img/logo_ong-removebg-preview.png" alt=""></li>
+            <li><a class="button-menu" href="#QuemSomos">Quem somos</a></li>
+            <li><a class="button-menu" href="#Formulário de contato">Formulário de contato</a></li>
+            <li><a class="button-menu" href="#Localização">Localização</a></li>
+            <li><a class="button-menu" href="#Como doar">Como doar</a></li>
+            <li><a class="button-menu" href="#Parceiros">Parceiros</a></li>
+            <li class="button" id="btn-mobile"><button class="btn-mobile">menu</button></li>        
+        </ul>
+    </nav>
+
     <main> 
+
+        <section>
+            <header>
+                <div class="header"></div>
+                <div class="slider">
+                    <div class="slider--controls">
+                        <div class="slider--control" onclick="goPrev()">Back</div>
+                        <div class="slider--control" onclick="goNext()">Next</div>
+                    </div>
+                    <div class="slider--width">
+                        <div class="slider--item" style="background-image: url(./img/home\ page\ p.jpeg);"></div>
+                        <div class="slider--item" style="background-image: url(./img/CARROSSEL\ 2.jpeg);"></div>
+                        <div class="slider--item" style="background-image: url(./img/CARROSSEL\ 3.jpeg);"></div>
+                    </div>
+    
+                </div>
+            </header>
+        </section>
 
         <form class="Form" id="form" >
 
@@ -51,7 +83,7 @@
 
     </main>
 
-    <script src="../src/script_form.js"></script>
+    <script src="./src/script_form.js"></script>
 
 </body>
 </html>
