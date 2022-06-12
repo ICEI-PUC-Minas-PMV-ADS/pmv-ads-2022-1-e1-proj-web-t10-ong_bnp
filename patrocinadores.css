@@ -35,7 +35,7 @@
     justify-content: space-around;
 }
 
-.main-content .box {
+.main-content {
     padding: 15px 0 0 0;
 }
 
@@ -44,9 +44,7 @@
 }
 
 .ongname {
-    justify-items: center;
     font-size: larger;
-    height: 0px;
 }
 
 .direitos {
@@ -69,55 +67,59 @@
     margin: 12px 0 0 0;
 }
 
-.box ul, .box li {
+.box-list {
     list-style: none;
-    padding: 0;
 }
 
-@media screen and (max-width: 1000px) {
-    .navegacao {
-        gap: 15px 
-    }
-    
-    .meio {
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-}
-
-@media screen and (max-width: 600px) {
-
-    .meio {
-        display: flex;
-    }
-
-    .partedecima {
-        font-size: medium;
-        padding: 15px 0 0 0;
-        margin: 0px;
-    }
-
-    .parceiros {
-        width: 280px;
-        margin: 0px;
-        padding: 0px;
-    }
+@media screen and (max-width: 700px) {
 
     .main-content {
-    max-height: auto;
-    flex-wrap: wrap;
-    flex-direction: column;   
-        
+        margin-bottom: 2%;
     }
     
+    .Contatos-box {
+        padding-left: 2%;
+    }
+
     .contatos-box {
         padding: 10px 0 0 0;
     }
 
-    .ongname {
-        padding: 15px 0 0 0;
+    .meio-box {
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        padding-top: 12%;
+    }
+
+    .Desenvolvido-box {
+        padding-left: 2%;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .parceiros {
+        margin-top: 5%;
+    }
+
+    .Contatos-box {
+        padding-left: 2%;
+    }
+
+    .contatos-box {
+        padding: 10px 0 0 0;
+    }
+
+    .meio-box {
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        padding-top: 12%;
+    }
+
+    .Desenvolvido-box {
+        padding-left: 2%;
     }
 
     .nome {
@@ -126,63 +128,25 @@
         font-size: medium;
     }
 
-    .main-content .box {
-        padding: 0 7px 0 7px;
-    }
-
 }
 
-@media screen and (max-width: 1000px) {
-   
-    .meio {
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
 
     .meio {
-        display: flex;
-    }
-
-    .partedecima {
-        font-size: medium;
-        padding: 15px 0 0 0;
-        margin: 0px;
-    }
-
-    .parceiros {
-        width: 280px;
-        margin: 0px;
-        padding: 0px;
+        border: 2px black solid;
     }
 
     .main-content {
-        max-height: auto;
-        flex-wrap: wrap;
-        flex-direction: column;   
-        
-    }
-    
-    .contatos-box {
-        padding: 10px 0 0 0;
+        display: block;
     }
 
     .ongname {
-        padding: 15px 0 0 0;
-    }
-
-    .nome {
-        padding: 10px 7px 0 7px;
-        margin: 0 0 7px 0;
         font-size: medium;
     }
 
-    .main-content .box {
-        padding: 0 7px 0 7px;
+    .meio-box {
+        margin: 4% 1.5% 2% 1.5%;
+        padding: 0%;
     }
 
 }
