@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# ONG: O Bem Nunca Para
 
 `Tecnólogo em Análise e Desenvolvimento de Sistemas`
 
@@ -6,7 +6,7 @@
 
 `1° SEMESTRE - 2022`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Esse projeto visa desenvolver uma aplicação web front-end, com a finalidade de apresentar informações da ONG "O bem nunca para" e tornar possível o envio de formulário de contato para agendamento de consultas, que apresente informações prévias do usuário.
 
 ## Integrantes
 
@@ -16,13 +16,22 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * <a href="https://github.com/leonardojaques51"> Leonardo Jaques </a>
 * <a href="https://github.com/Ieeeza"> César Pereira dos Santos Filho </a>
 
-## Orientador
+## Orientadora
 
 * Daniela Carvalho Monteiro Ferreira
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Instruções de Acesso
+1.	Abra o navegador de internet e informe a seguinte URL: https://exemplo.com.br
+2.	A homepage é o primeiro layout exibido no site a tela o menu lhe acompanha.
+3.  A partir da homepage o usuário navega pelas informações: Quem somos, Formulário de contato, Localização, Como doar e Parceiros.
+
+Para acessar o formulário de contato
+1.	Abra o navegador de internet e informe a seguinte URL: https://exemplo.com.br
+2.	Navegue até o layout “Entre em Contato” ou escolha a opção “Contato” no menu.
+3.	Preencha o formulário
+4.	Clique no botão enviar.
 
 # Documentação
 
