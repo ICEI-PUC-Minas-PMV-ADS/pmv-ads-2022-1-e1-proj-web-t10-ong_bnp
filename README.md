@@ -1,4 +1,4 @@
-# ONG: O Bem Nunca Para
+# Site: O Bem Nunca Para
 
 `Tecnólogo em Análise e Desenvolvimento de Sistemas`
 
@@ -31,7 +31,7 @@ Para acessar o formulário de contato
 1.	Abra o navegador de internet e informe a seguinte URL: https://exemplo.com.br
 2.	Navegue até o layout “Entre em Contato” ou escolha a opção “Contato” no menu.
 3.	Preencha o formulário
-4.	Clique no botão enviar.
+4.	Clique no botão Saiba Mais.
 
 # Documentação
 
