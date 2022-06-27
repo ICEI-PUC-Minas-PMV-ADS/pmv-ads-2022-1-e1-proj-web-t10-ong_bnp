@@ -40,8 +40,8 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t10-ong_bnp
 
 # Código
 
-(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t10-ong_bnp/blob/main/OngProjetoFinal.zip) Código Fonte</a></li>
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t10-ong_bnp/blob/main/OngProjetoFinal.zip
 
 # Apresentação
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t10-ong_bnp/blob/main/Apresentação%20do%20Projeto.pdf Apresentação da solução</a></li>
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t10-ong_bnp/blob/main/Apresentação%20do%20Projeto.pdf Apresentação da solução
