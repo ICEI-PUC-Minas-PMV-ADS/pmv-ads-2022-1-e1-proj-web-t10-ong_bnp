@@ -1,0 +1,94 @@
+.Formulario__custom--Section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: #E9F2F9;
+}
+
+.Formulario__custom--header {
+    width: 100%;
+    text-align: center;
+}
+
+.Formulario__custom--Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Formulario__custom {
+    width: 80%;
+    max-width: 700px;
+    
+    padding: 20px;
+    
+    background-color: #9CC4E4;
+    box-shadow: .2px .2px 2px #00000070;
+    
+    border-radius: 10px;
+}
+
+.Formulario__custom--input {
+    box-shadow: 4px 4px 6px #566075dc;
+    border: solid 2px #3A89C9;
+    border-radius: 10px;
+
+    color: #303642;
+
+    height: 40px;
+
+    margin-top: 10px;
+    
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.Formulario__custom--input:hover {
+    box-shadow: none;
+    transition: all 0.3s;
+}
+
+.Formulario__custom--Button {
+    background-color: aliceblue;
+    border: solid 2px #3A89C9;
+    border-radius: 20px;
+
+    padding: 8px 18px;
+    
+    color: #3A89C9;
+    font-weight: 600;
+    
+    box-shadow: .5px .5px 5px #00000070;
+}
+
+.Formulario__custom--Button:hover {
+    box-shadow: none;
+    
+    background-color: #3A89C9;
+    border: solid 2px #3A89C9;
+
+    transition: all 0.3s;
+}
+
+@media screen and (max-width: 590px) {
+    .Formulario__custom {
+        width: 90%;
+        padding: 35px 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Formulario__custom {
+        width: 90%;
+        padding: 20px 10px;
+        border-radius: 10px;
+    }
+
+    .Formulario__custom--input {
+        margin-top: 20px;
+        height: 50px;
+    }
+}

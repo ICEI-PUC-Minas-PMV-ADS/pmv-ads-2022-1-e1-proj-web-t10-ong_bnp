@@ -1,0 +1,8 @@
+.Section--Container {
+    width: 100%;
+    height: 100vh;
+}
+
+.Section--Container__Custom--Header {
+    height: 13vh;
+}

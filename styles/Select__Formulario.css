@@ -1,0 +1,35 @@
+.ContainerList {
+    width: 100%;
+    height: 0px;
+
+    display: none;
+
+    z-index: 33;
+}
+
+.CampoList {
+    padding: 20px;
+    border-radius: 10px;
+
+    height: 140px;
+    overflow: hidden;
+    
+    margin-top: -80px;
+}
+
+.ContainerSelect {
+    color: #E9F2F9;
+    font-weight: 600;
+}
+
+.ContainerSelect:hover {
+    color: #E9F2F9;
+
+    background-color: rgba(114, 114, 114, 0.802);
+    border: solid 2px #E9F2F9;
+    border-radius: 15px;
+
+    cursor: pointer;
+
+    transition: all 0.3s;
+}

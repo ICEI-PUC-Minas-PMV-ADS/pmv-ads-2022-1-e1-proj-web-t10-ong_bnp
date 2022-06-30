@@ -1,0 +1,47 @@
+.Parceiros__custom--Container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Parceiros__custom--listaParceiros {
+    width: 80%;
+    height: auto;
+    min-height: 250px;
+    min-width: 250px;
+
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    list-style: none;
+
+    background-color: #E9F2F9;
+}
+
+.Parceiros__custom--Imagem-1 {
+    background-image: url(../assets/img/Parceiro-1.png);
+    width: 180px;
+    height: 77px;
+}
+
+.Parceiros__custom--Imagem-2 {
+    background-image: url(../assets/img/Parceiro-2.png);
+    width: 200px;
+    height: 150px;
+}
+
+.Parceiros__custom--ImagemTamanho {
+
+    margin: 15px;
+    border-radius: 10px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}

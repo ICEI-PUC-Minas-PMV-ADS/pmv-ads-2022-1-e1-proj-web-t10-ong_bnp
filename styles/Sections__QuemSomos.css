@@ -1,0 +1,124 @@
+.QuemSomos__custom--alinhamento {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.QuemSomos__custom--containerImg-1 {
+    width: 250px;
+    height: 500px;
+}
+
+.QuemSomos__custom--containerImg-2 {
+    display: none;
+}
+
+.QuemSomos__custom--CardsAlinhamento {
+    width: 60%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-top: -100px;
+}
+
+.QuemSomos__custom--card-1 {
+    width: 25rem;
+    text-align: center;
+
+    background-color: #E9F2F9;
+
+    padding: 15px;
+    border: none;
+}
+
+.QuemSomos__custom--card-2 {
+    width: 13rem;
+
+    background-color: #E9F2F9;
+
+    padding: 10px;
+    border: none;
+}
+
+.QuemSomos__custom--botao {
+    border-color: #3A89C9;
+    color: #3A89C9;
+}
+
+.QuemSomos__custom--botao:hover {
+    background-color: #3A89C9;
+    border-color: #3A89C9;
+}
+
+@media screen and (max-width: 1000px) {
+    .QuemSomos__custom--containerImg-1 {
+        display: none;
+    }
+
+    .QuemSomos__custom--CardsAlinhamento {
+        width: 90%;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    .QuemSomos__custom--card-1 {
+        margin: 20px;
+    }
+    
+    .QuemSomos__custom--card-2 {
+        margin: 20px;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 746px) {
+
+    .QuemSomos__custom--alinhamento {
+        height: auto;
+    }
+
+    .QuemSomos__custom--card-1 {
+        width: 100%;
+    }
+
+    .QuemSomos__custom--card-2 {
+        width: 100%;
+    }
+
+    .QuemSomos__custom--Servicos {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .QuemSomos__custom--containerImg-2 {
+        margin-top: 50px;
+        width: 95%;
+        display: initial;
+    }
+
+    .QuemSomos__custom--containerImg-2 img {
+       border-radius: 10px;
+    }
+
+    .QuemSomos__custom--alinhamento {
+        height: auto;
+    }
+
+    .QuemSomos__custom--card-1 {
+        width: 100%;
+        margin-top: 0;
+        margin: 30px 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .QuemSomos__custom--Servicos {
+        display: block;
+    }
+}

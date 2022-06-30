@@ -1,237 +1,328 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ONG OBNP</title>
-    
-    <link rel="stylesheet" href="./patrocinadores.css">
-    <link rel="stylesheet" href="./form.css">
-    <link rel="stylesheet" href="./HomePage.css">
-    <link rel="stylesheet" href="./Localização.css">
-    <link rel="stylesheet" href="./QuemSomos.css">
 
+    <link rel="stylesheet" href="./bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./styles/NavBar.css">
+    <link rel="stylesheet" href="./styles/Carousel.css">
+    <link rel="stylesheet" href="./styles/Containers.css">
+    <link rel="stylesheet" href="./styles/Sections__QuemSomos.css">
+    <link rel="stylesheet" href="./styles/Formulario.css">
+    <link rel="stylesheet" href="./styles/Select__Formulario.css">
+    <link rel="stylesheet" href="./styles/Sections__ComoDoar.css">
+    <link rel="stylesheet" href="./styles/Footer.css">
+    <link rel="stylesheet" href="./styles/Mapa.css">
+    <link rel="stylesheet" href="./styles/Parceiros.css">
 </head>
-<body>
-    <noscript> Você precisa habilitar o JavaScript para executar este aplicativo! </noscript>
 
-    <nav class="menu" id="nav">
-        <ul class="container" id="container">
-            <li class="img"><img src="./img/logo_ong-removebg-preview.png" alt=""></li>
-            <li><a class="button-menu" href="#QuemSomos">Quem somos</a></li>
-            <li><a class="button-menu" href="#Formulário de contato">Formulário de contato</a></li>
-            <li><a class="button-menu" href="#Localização">Localização</a></li>
-            <li><a class="button-menu" href="#Como doar">Como doar</a></li>
-            <li><a class="button-menu" href="#Parceiros">Parceiros</a></li>
-            <li class="button" id="btn-mobile"><button class="btn-mobile">menu</button></li>        
-        </ul>
-    </nav>
+<body id="Home">
+    <!-- HTML - Menu -->
+    <header class="Section--Container__Custom--Header">
+        <nav class="navbar navbar-expand-lg nav__custom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#Home"><img src="./assets/img/logo.png" class="logo__custom" alt=""></a>
+                
+                <button class="navbar-toggler nav--botao__custom" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <main> 
-
-        <section>
-            <header>
-                <div class="header"></div>
-                <div class="slider">
-                    <div class="slider--controls">
-                        <div class="slider--control" onclick="goPrev()">Back</div>
-                        <div class="slider--control" onclick="goNext()">Next</div>
-                    </div>
-                    <div class="slider--width">
-                        <div class="slider--item" style="background-image: url(./img/home\ page\ p.jpeg);"></div>
-                        <div class="slider--item" style="background-image: url(./img/CARROSSEL\ 2.jpeg);"></div>
-                        <div class="slider--item" style="background-image: url(./img/CARROSSEL\ 3.jpeg);"></div>
-                    </div>
-    
+                <div class="collapse navbar-collapse navbar__custom--width" id="navbarSupportedContent">
+                    <ul class="navbar-nav container--link__custom">
+                        <li id="NavItem-1" class="nav-item">
+                            <a class="nav-link links__custom" aria-current="page" href="#QuemSomos">Quem somos</a>
+                        </li>
+                        <li id="NavItem-2" class="nav-item">
+                            <a class="nav-link links__custom" href="#Contato">Contato</a>
+                        </li>
+                        <li id="NavItem-3" class="nav-item">
+                            <a class="nav-link links__custom" href="#Localização">Localização</a>
+                        </li>
+                        <li id="NavItem-4" class="nav-item">
+                            <a class="nav-link links__custom" href="#Comodoar">Como doar</a>
+                        </li>
+                        <li id="NavItem-5" class="nav-item">
+                            <a class="nav-link links__custom" href="#Parceiros">Parceiros</a>
+                        </li>
+                    </ul>
                 </div>
-            </header>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="Section--Container carousel__custom--mobile">
+        <!-- HTML - Carrossel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner h-10">
+                <div class="carousel-item active">
+                    <img src="./assets/img/Imagem-Carrousel-1.jpeg"
+                        class="d-block w-100 carousel__custom--width carousel__custom--mobile" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/Imagem-Carrousel-2.jpeg"
+                        class="d-block w-100 carousel__custom--width carousel__custom--mobile" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/Imagem-Carrousel-3.jpeg"
+                        class="d-block w-100 carousel__custom--width carousel__custom--mobile" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev carousel__custom--mobile" type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon carousel__custom--bottom" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next carousel__custom--mobile" type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon carousel__custom--bottom" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <main>
+
+        <!-- Section - Quem somos -->
+        <section id="QuemSomos" class="Section--Container QuemSomos__custom--alinhamento">
+
+            <div class="QuemSomos__custom--containerImg-1">
+                <img src="./assets/img/Imagem-QuemSomos.jpeg" class="img-fluid" alt="...">
+            </div>
+            <div class="QuemSomos__custom--containerImg-2">
+                <img src="./assets/img/Imagem-Carrousel-3.jpeg" class="img-fluid" alt="...">
+            </div>
+
+            <div class="QuemSomos__custom--alinhamento QuemSomos__custom--CardsAlinhamento">
+                <div class="card QuemSomos__custom--card-1">
+                    <div class="card-body">
+                        <h3 class="card-title">Quem somos?</h3>
+                        <p class="card-text">
+                            Somos uma ONG que presta auxílio em regiões de vulnerabilidade social na cidade de Belo
+                            Horizonte. Visa facilitar o acesso a especialidades médicas por meio de serviços voluntários
+                            de profissionais habilitados em sua área de atuação.
+
+                            Incentivamos uma corrente do bem, conectando pessoas que necessitam de ajuda aquelas que se
+                            propõe ajudar. Convidamos a fazer parte desta corrente do bem!
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-outline-primary QuemSomos__custom--botao">Saiba Mais</button>
+                </div>
+
+                <div class="card QuemSomos__custom--card-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Serviços</h5>
+                        <ul class="QuemSomos__custom--Servicos">
+                            <div>
+                                <li class="card-text">Psicologia</li>
+                                <li class="card-text">Terapia Ocupacional</li>
+                                <li class="card-text">Clínica Geral</li>
+                                <li class="card-text">Enfermagem</li>
+                                <li class="card-text">Fisioterapia</li>
+                            </div>
+                            <div>
+                                <li class="card-text">Aulas Reforço</li>
+                                <li class="card-text">Nutricionista</li>
+                                <li class="card-text">Advocacia</li>
+                                <li class="card-text">Assistente Social</li>
+                                <li class="card-text">Hotelzinho</li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
         </section>
 
-<section class="SectionsQuemSomos" >
+        <!-- Section - Formulário -->
+        <section id="Contato" class="Section--Container Formulario__custom--Section bg-image" style="
+            background-image: url('./assets/img/Background.jpeg');
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+        ">
 
-            <div class="ContainerImg" >
-                <img src="./img/Imagem.jpeg" alt="">
-            </div>
-
-            <div class="ContainerMid" >
-                <div class="ContainerQuemSomos" >
-                    <h1>Quem Somos</h1>
-    
-                    <p>
-                        Somos uma ONG que presta auxílio em regiões de vulnerabilidade social na cidade de Belo Horizonte. Visa facilitar o acesso a especialidades médicas por meio de serviços voluntários de profissionais habilitados em sua área de atuação. 
-    
-                        Incentivamos uma corrente do bem, conectando pessoas que necessitam de ajuda aquelas que se propõe ajudar. Convidamos a fazer parte desta corrente do bem!
-                    </p>
-    
-                </div>
-    
-                <div class="ContainerButtonSaibaMais">
-                    <button>Saiba Mais</button>
-                </div>
-            </div>
-
-            <div class="ContainerServicos" >
-                <h1>
-                    Serviços
-                </h1>
-
-                <ul class="ContainerList" >
-                    <li>Psicologia</li> 
-                    <li>Terapia Ocupacional</li>
-                    <li>Clínica Geral</li>
-                    <li>Enfermagem</li> 
-                    <li>Fisioterapia</li>
-                    <li>Fonoaudiologia</li>
-                    <li>Nutricionista</li>
-                    <li>Advocacia</li> 
-                    <li>Assistente Social</li> 
-                    <li>Psicopedagogia</li> 
-                    <li>Aula de reforço</li>
-                    <li>Cantinho do Aprender</li>
-                    <li>Hotelzinho</li>
-                </ul>
-
-            </div>
-
-        </section>
-
-        <form class="Form" id="form" >
-
-            <header class="HeaderForm" >
-                <h1>Entre em Contato</h1>
+            <header class="Formulario__custom--header">
+                <h1>Formulário de Contato</h1>
             </header>
 
-            <div class="ContainerForm" >
-               
-                <div class="ContainerInputForm">
-                    <input type="text" id="Name" placeholder="Nome"  >
-                    <label for="Name" id="LabelName"></label>
-                    
-                    <input type="text" id="Email" placeholder="Email"  >
-                    <label for="Email" id="LabelEmail" ></label>
-                    
-                    <input type="text" id="Tel" placeholder="Telefone"  >
-                    <label for="Telefone" id="LabelTel" ></label>
+            <div class="Formulario__custom--Container">
+                <form id="form" class="row g-2 Formulario__custom">
+                    <div class="mb-12">
+                        <input type="text" id="Name" class="form-control Formulario__custom--input" placeholder="Name">
+                        <div class="invalid-feedback">
+                            Seu nome NÃO deve conter caracteres especiais ou números
+                        </div>
+                    </div>
+                    <div class="mb-12">
+                        <input type="email" id="Email" class="form-control Formulario__custom--input"
+                            placeholder="name@example.com">
+                        <div class="invalid-feedback">
+                            Insira um formato válido de Email
+                        </div>
+                    </div>
+                    <div class=" mb-12">
+                        <input type="tel" id="Tel" class="form-control Formulario__custom--input"
+                            placeholder="(00) 0000-0000">
+                        <div class="invalid-feedback">
+                            Insira um número de telefone válido
+                        </div>
+                    </div>
+                    <div class="mb-12">
+                        <input type="text" id="Servicos" class="form-control Formulario__custom--input"
+                            placeholder="Pesquisar por serviços...">
+                        <label for="Servicos" id="LabelServicos"></label>
+                        <div class="invalid-feedback">
+                            Pesquise e selecione um serviço
+                        </div>
+                    </div>
 
-                    <input type="text" id="Servicos" value="" placeholder="Pesquisar por serviços..." >
-                    <label for="Servicos" id="LabelServicos" ></label>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-outline-primary Formulario__custom--Button">Saiba
+                            Mais</button>
+                    </div>
 
-                    <div class="ContainerList">
+                    <div class="ContainerList" id="ContainerList">
                         <div class="CampoList" id="CampoList">
-                            <div id="List" value='' ></div>
+                            <div id="List" value=''></div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+
+        <!-- Section - Como Doar -->
+        <section id="Comodoar" class="Section--Container Doar__custom--alinhamento">
+
+            <div class="Doar__custom--alinhamento Doar__custom--CardsAlinhamento">
+
+                <div class="Doar__custom--ContainerCard-1">
+                    <div class="card Doar__custom--card-1">
+                        <div class="card-body">
+                            <h3 class="card-title">Como doar?</h3>
+                            <p class="card-text">
+                                Além de ser um ato de boa vontade que impacta a vida de muitas pessoas, sua doação
+                                estimula e reconhece a importância do nosso trabalho.
+
+
+                                Com a sua doação, podemos fazer muito mais!
+                            </p>
+                        </div>
+                    </div>
+
+                    <ul class="Doar__custom--ListaContato">
+                        <li>Telefone (Tupi) : (31) 98595-8924</li>
+                        <li>Telefone (Lajedo) : (31) 98742-0586</li>
+                    </ul>
+                </div>
+
+                <div class="Doar__custom--Container--Card-2">
+                    <div class="card Doar__custom--card-2">
+                        <div class="card-body">
+                            <h5 class="card-title">O que doar?</h5>
+                            <ul class="Doar__custom--Servicos">
+                                <div>
+                                    <li class="card-text">Alimentos</li>
+                                    <li class="card-text">Cesta Básica</li>
+                                    <li class="card-text">Roupas</li>
+                                    <li class="card-text">Brinquedos</li>
+                                </div>
+                                <div>
+                                    <li class="card-text">Contribuição financeira</li>
+                                    <li class="card-text">Produto de Higiene e Limpeza</li>
+                                    <li class="card-text">Material de Escritório</li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card Doar__custom--card-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Como Doar?</h5>
+                            <ul class="Doar__custom--Servicos">
+                                <div>
+                                    <li class="card-text"> Marque um dia e um horário para ir até uma de nossas sedes
+                                    </li>
+                                    <li class="card-text">Por gentileza, leve todas as doações higienizadas</li>
+                                    <li class="card-text">Se preferir envie sua doação pelos correios :)</li>
+                                </div>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                
-                <div class="ContainerButtonForm">
-                    <button>Enviar</button>
-                </div>
 
             </div>
 
-        </form>
+
+        </section>
+
+        <!-- Section - Localização -->
+        <section id="Localização" class="Section--Container Localizacao__custom--ContainerMapa bg-image" style="
+          background-image: url('./assets/img/Background.jpeg');
+          height: 100vh;
+          background-repeat: no-repeat;
+          background-size: cover;
+        ">
+            <h3>Localização</h3>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.2116683341114!2d-43.91452988488264!3d-19.830994840359818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa685245a3ca16f%3A0xa140dd3383a731c5!2sR.%20Poeta%20Raul%20Bop%2C%20309%20-%20Tupi%2C%20Belo%20Horizonte%20-%20MG%2C%2031844-460!5e0!3m2!1spt-BR!2sbr!4v1656283145135!5m2!1spt-BR!2sbr"
+                class="Localizacao__custom--mapa" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <p>ONG de Belo Horizonte - Lajedo </p>
+        </section>
+
+        <!-- Section - parceiros -->
+        <section id="Parceiros" class="Section--Container Parceiros__custom--Container" >
+            <h3>Nossos Parceiros</h3>
+            <ul class="Parceiros__custom--listaParceiros" >
+                <li class="Parceiros__custom--Imagem-1 Parceiros__custom--ImagemTamanho" ></li>
+                <li class="Parceiros__custom--Imagem-2 Parceiros__custom--ImagemTamanho" ></li>
+            </ul>
+        </section>
 
     </main>
 
-    <nav class="localização">
-        <h1 class="TituloLocalizaçao">Localização</h1>
-        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.2114333665304!2d-43.91452268508692!3d-19.83100478665923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa685b9858066a1%3A0x8c9d06afc417d60b!2sONG%20O%20Bem%20Nunca%20Para!5e0!3m2!1spt-BR!2sbr!4v1652565690410!5m2!1spt-BR!2sbr" width="50%" height="60%" style="border:20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <h3 class="NomeONG">Unidade Lajedo-BH</h3>
- </nav> 
- 
-     <div class="Doaçoes">
-    <nav>
-        <section> 
-        <div class="ContainerParagrafo">
-        <p>Além de ser um ato de boa vontade que impacta
-         a vida de muitas pessoas, sua doação estimula e
-         reconhece a importância do nosso trabalho.</p>
-         <br>
-         <p>Com a sua doação, podemos fazer muito mais!</p>
-     </div>
- 
-     <div class="ContainerOQueDoar"> 
-         <h1>O que doar?</h1>
-         <ol class="doaçoes">
-         <li>Alimentos</li>
-         <li>Cesta Básica</li>
-         <li>Produtos de Higiene</li>
-         <li>Produtos de Limpeza</li>
-         <li>Roupas</li>
-         <li>Material de Escritório</li>
-         <li>Contribuição financeira</li>
-         </ol>
-     </div>
- 
-     <div  class="ContainerComoDoar">
-         <h1>Como doar?</h1>
-         <ol class="DoaçoesOrientaçoes">
-             <li>Marque um dia e um horário para ir até uma de nossas unidades;</li>
-             <br>
-             <li>Por gentileza, leve todas as doações higienizadas;</li>
-             <br>
-             <li>Se preferir envie sua doação pelos correios ou entregador.</li>
-         </ol>
-     </div>
- 
-     <div class="ContainerTelefones">
-         <ol class="telefones">
-             <li>Telefone (Tupi) : (31) 98595-8924</li>
-             <li>Telefone (Lajedo) : (31) 98742-0586</li>
-         </ol>
-     </div>
- 
- <div class="WhatsApp">
-     <button class="Whats">WhatsApp</button>
- </div>
-     </div>
-     </section>
- 
- </nav> 
+    <footer class="Footer__custom--Container">
 
- <section class="meio">
-    <p class="partedecima">NOSSO PARCEIROS</p>
-    <img class="parceiros" src="PATROCINADORE.jpeg" alt="parceiros da ong" width="95%">
-</section>
-
-<footer class="footer">
-    <div class="main-content">
-        <div class="Contatos box">
-            <h1 class="contatos-box">Contatos:</h1>
-            <ul class="box-list">
-                <li>Telefone: (31)98595-8924</li>
-                <li>Endereço:  Rua Joaquim Cardoso 236 - <br> Bairro Tupi</li>
+        <div class="Footer__custom">
+            <h5>Contatos</h5>
+            <ul class="Footer__custom--ListaEstilo">
+                <li>Telefone: (31) 98595-8924</li>
+                <li>Endereço: Rua Joaquim Cardoso 236- Bairro Tupi</li>
                 <li>CEP: 31842-500</li>
-            </ul>            
-        </div> 
-        
-        <div class="meio box">
-            <p class="ongname">@ongobbemnuncaparatup</p>
-     
-        </div>
-
-        <div class="desenvolvido box">
-            <h1 class="desenvolvido-box">Desenvolvido por:</h1>
-            <ul class="box-list">
-                <li>Thiago Almeida</li>
-                <li>Tássia Teixeira</li>
-                <li>César Pereira</li>
-                <li>Gabriel Alexandre</li>
-                <li>Leonardo Jaques</li>
             </ul>
         </div>
-    </div>
-    <div class="direitos">       
-        <p class="nome">© 2022 - Todos os direitos reservados para a ONG o bem nunca para</p>
-    </div>
-</footer>
 
- 
+        <div class="Footer__custom--Mid">
+            <ul class="Footer__custom--ListaMid">
+                <li>&copy 2022 - Todos os direitos reservados para a ONG o bem nunca para.</li>
+            </ul>
+        </div>
 
+    </footer>
 
-
- <script src="./src/script_form.js"></script>
- <script src="./src/Carrossel.js"></script>
+    <script type="module" src="./src/Form__Script.js"></script>
+    <script src="./bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>

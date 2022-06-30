@@ -1,0 +1,78 @@
+.nav__custom {
+    width: 100vw;
+    height: auto;
+    min-height: 13vh;
+
+    position: fixed;
+    z-index: 99;
+
+    background-color: #9CC4E4;
+    box-shadow: 2px 3px 8px #0d182d;
+}
+
+.logo__custom {
+    width: 75px;
+    height: 75px;
+
+    padding: 5px;
+}
+
+.nav--botao__custom {   
+    border: none;
+    color: transparent;   
+}
+
+@keyframes animation__button {
+    0% { 
+        transform: rotateZ(25deg);
+    }
+    50% { 
+        transform: rotateZ(-30deg);
+    }
+    100% { 
+        transform: rotateZ(25deg);
+    }
+}
+
+.nav--botao__custom:active {
+    animation: normal 0.5s animation__button;  
+}
+
+.container--link__custom {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.links__custom {
+    color: #3A89C9;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.links__custom:hover {
+    transition: all 0.2s;
+    border-bottom: solid 2px #3A89C9;
+}
+
+@media screen and (max-width: 991px) {
+    .container--link__custom {
+        width: 100vw;
+        height: 70%;
+        min-height: auto;
+
+        margin-left: -12px;
+        text-align: center;
+    }
+    
+    .navbar__custom--width {
+        height: 100vh;
+    }
+
+    .links__custom:hover {
+        border-bottom: solid 2px #3A89C9;
+        border-top: solid 2px #3A89C9;
+        background-color: #3a89c954;
+    }
+}

@@ -1,0 +1,50 @@
+.Footer__custom--Container {
+    width: 100%;
+    height: auto;
+    min-height: 27vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: #9CC4E4;
+}
+
+.Footer__custom--Mid {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.Footer__custom--ListaMid {
+    list-style: none;    
+}
+
+.Footer__custom {
+    padding: 10px;
+    display: fle;
+}
+
+@media screen and (max-width: 800px) {
+    .Footer__custom--Mid {
+        width: 100%;
+    }
+
+    .Footer__custom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Footer__custom--ListaEstilo {
+        list-style: none;
+    }
+}

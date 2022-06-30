@@ -1,0 +1,17 @@
+.carousel__custom--width {
+    width: 100%;
+    height: 87vh; 
+}
+
+.carousel__custom--bottom {
+    background-color: #0d182d80;
+    border-radius: 25%;
+    padding: 5px;
+}
+
+@media screen and (max-width: 550px) {
+    .carousel__custom--mobile {
+        display: none;
+        visibility: hidden;
+    }
+}
